@@ -1,5 +1,4 @@
-**LaptopBooking**
-
+LaptopBooking
 
 trigger LaptopBooking on Laptop_Bookings__c (After insert, after update) {
 
@@ -12,7 +11,7 @@ trigger LaptopBooking on Laptop_Bookings__c (After insert, after update) {
 }
 
 
-**LaptopBookingHandler**
+LaptopBookingHandler
 
 public class LaptopBookingHandler {
     public static void sendEmailNotification (List<Laptop_Bookings__c> lapList){
