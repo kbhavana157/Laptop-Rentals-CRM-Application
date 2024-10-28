@@ -1,5 +1,6 @@
 **LaptopBooking**
 
+
 trigger LaptopBooking on Laptop_Bookings__c (After insert, after update) {
 
     if(trigger.isAfter && (trigger.isInsert || trigger.isupdate)) {
